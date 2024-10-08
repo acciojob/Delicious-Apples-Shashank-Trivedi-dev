@@ -15,17 +15,21 @@ body{
 	background-color:white;
 	margin:100px;
 	padding-top:40px;
+	display:flex;
+	flex-wrap:wrap;
+	
 }
 .photo-container{
-	width:40%;
-	height:500px;
+	min-width:40%;
+	
 	background-color:yellowgreen;
 	
 	margin-left:-50px;
 }
 .photo-main > img{
 	width:100%;
-	margin-left:-50px
+	margin-left:-50px;
+	vertical-align:bottom;
 }
 .photo-album{
 	background-color:white;
