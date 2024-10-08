@@ -2,6 +2,13 @@
 body{
 	background-color: lightgreen;
 }
+.controls{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	padding:5px;
+	color:white
+}
 .product{
 	height:600px;
 	width:600px;
@@ -33,4 +40,9 @@ body{
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:space-around;
+}
+.photo-album > ul > li > img{
+	width:40px;
+	border:1px solid black;
+	margin:1px;
 }
