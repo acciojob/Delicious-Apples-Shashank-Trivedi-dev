@@ -21,7 +21,7 @@ body{
 }
 .photo-container{
 	min-width:40%;
-	
+	height:80%;
 	background-color:yellowgreen;
 	
 	margin-left:-50px;
@@ -30,6 +30,7 @@ body{
 	width:100%;
 	margin-left:-50px;
 	vertical-align:bottom;
+	
 }
 .photo-album{
 	background-color:white;
