@@ -1,1 +1,36 @@
 /* your code here */
+body{
+	background-color: lightgreen;
+}
+.product{
+	height:600px;
+	width:600px;
+	background-color:white;
+	margin:100px;
+	padding-top:40px;
+}
+.photo-container{
+	width:40%;
+	height:500px;
+	background-color:yellowgreen;
+	
+	margin-left:-50px;
+}
+.photo-main > img{
+	width:100%;
+	margin-left:-50px
+}
+.photo-album{
+	background-color:white;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+.photo-album > ul > li {
+	list-style:none;
+}
+.photo-album > ul {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
