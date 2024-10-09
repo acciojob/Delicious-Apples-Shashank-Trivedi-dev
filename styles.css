@@ -51,3 +51,21 @@ body{
 	border:1px solid black;
 	margin:1px;
 }
+
+
+.variant > ul {
+	list-style:none;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.variant > ul > li > img {
+	width:40px;
+}
+
+.product__info{
+	padding:10px;
+	margin:10px;
+}
+
+
